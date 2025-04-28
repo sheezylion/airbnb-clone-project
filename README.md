@@ -135,3 +135,48 @@ Responsibilities:
 - Ensure scalability, reliability, and uptime for the application.
 
 These roles come together to ensure that the project progresses efficiently, maintains high quality, and meets the necessary security standards. Each member contributes their expertise to building a scalable and robust Airbnb clone that can serve as a real-world application.
+
+# Technology Stack
+
+In the Airbnb Clone Project, we are using a modern full-stack technology suite to build a scalable, secure, and efficient booking platform. Each tool and technology plays a specific and important role in the overall architecture:
+
+## Backend:
+
+Django:
+A high-level Python web framework that simplifies backend development. Used to build RESTful APIs, handle server-side logic, manage user authentication, and manage interactions with the database.
+
+## GraphQL:
+
+A query language for APIs that allows clients to request exactly the data they need. It improves efficiency in data fetching between the client and server compared to traditional REST APIs.
+
+## Database:
+
+MySQL:
+A popular relational database management system used to store and manage all application data securely and efficiently. Handles user information, booking details, property listings, and more.
+
+## Version Control:
+
+GitHub:
+A platform for hosting and managing code repositories. Facilitates collaborative development, version control, and documentation. Used for tracking issues, pull requests, and implementing CI/CD workflows.
+
+## Continuous Integration/Continuous Deployment (CI/CD):
+
+GitHub Actions:
+An automation tool that helps set up workflows to build, test, and deploy code automatically. Ensures that changes are safely and reliably pushed to production.
+
+## Containerization & Deployment:
+
+Docker (Optional for CI/CD Setup):
+A platform to create, deploy, and manage lightweight containers that bundle application code with its environment. Ensures consistency across development, testing, and production.
+
+## Security:
+
+JWT (JSON Web Tokens):
+A secure method for transmitting information between parties. Used to implement secure authentication and authorization for users accessing the platform.
+
+## Other Tools:
+
+Markdown:
+A lightweight markup language used to create formatted text using a plain-text editor. Used for writing README files, documentation, and project planning materials.
+
+This technology stack ensures the project is scalable, secure, and efficient, while also following best industry practices for modern software development.
